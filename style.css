@@ -168,6 +168,44 @@ a{
     .hide{
         display: none;
     }
+    .controls{
+        display: none;
+        transition: 2s;
+    }
+    .album{
+        width: 25%;
+        display: inline-block;
+        
+    }
+    .player{
+        display: block;
+        width: 100%;
+
+    }
+}
+@media (max-width:670px) {
+    .hide{
+        display: none;
+    }
+    .controls{
+        display: none;
+        transition: 2s;
+    }
+    .song-info{
+        /* position: relative;   */
+        display: none;  
+    }
+    .control-icons{
+        width:min-content;
+        display:inline-block;
+    }
+    .player{
+        display: block;
+        width: 50%;
+    }
+    .playback-bar{
+        margin-right: 1rem;
+    }
 }
 .card{
     background-color: #181919;
